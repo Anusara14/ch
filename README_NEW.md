@@ -9,6 +9,7 @@ This website was created as part of a **Town and Country Planning** research pro
 ## ✨ Features
 
 ### 🔧 Technical Features
+
 - **Multi-Page Architecture**: Organized content across 7 dedicated pages
 - **Modern CSS Framework**: Custom properties, Grid/Flexbox layouts, glass morphism effects
 - **ES6+ JavaScript**: Modular architecture with classes and modern syntax
@@ -18,6 +19,7 @@ This website was created as part of a **Town and Country Planning** research pro
 - **Performance Optimized**: Efficient loading and minimal dependencies
 
 ### 📊 Interactive Components
+
 - **Chart.js Visualizations**: Population demographics and statistics
 - **Leaflet.js Maps**: Interactive geographic portal with layer controls
 - **Form Validation**: Real-time validation with user feedback
@@ -25,9 +27,10 @@ This website was created as part of a **Town and Country Planning** research pro
 - **Data Export**: GeoJSON and CSV download capabilities
 
 ### 🌿 Content Areas
+
 - **Village Overview**: History, culture, and community information
 - **Demographics**: Population statistics with interactive charts
-- **Geography**: Topography, climate, and landscape features  
+- **Geography**: Topography, climate, and landscape features
 - **Environment**: Natural attractions and conservation efforts
 - **GIS Portal**: Interactive maps and geographic data
 - **Contact System**: Modern forms and project information
@@ -57,15 +60,18 @@ rambuka-village/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 - Local web server (optional, for optimal performance)
 
 ### Installation
+
 1. **Clone or download** the project files
 2. **Open any HTML file** in your web browser
 3. **For development**: Use a local server like Live Server (VS Code extension)
 
 ### Quick Start
+
 ```bash
 # If using Python's built-in server
 python -m http.server 8000
@@ -95,42 +101,49 @@ The website uses CDN links for external libraries:
 ## 📱 Page Descriptions
 
 ### 🏠 Homepage (index.html)
+
 - Hero section with village statistics
 - Feature showcases and highlights
 - Call-to-action elements
 - Modern responsive design
 
 ### 📜 History (history.html)
+
 - Interactive timeline of village development
 - Cultural heritage information
 - Traditional practices and customs
 - Animated timeline elements
 
 ### 👥 Population (population.html)
+
 - Demographic statistics with Chart.js
 - Population distribution visualizations
 - Community characteristics
 - Interactive data exploration
 
 ### 🗻 Geography (geography.html)
+
 - Topographic features and elevation data
 - Climate information and weather patterns
 - SVG landscape illustrations
 - Geographic positioning details
 
 ### 🌿 Environment (environment.html)
+
 - Natural attractions and features
 - Land use distribution analysis
 - Conservation efforts and sustainability
 - Environmental impact metrics
 
 ### 🗺️ Geo Portal (geoportal.html)
+
 - Interactive Leaflet.js map
 - Layer controls for different data types
 - GeoJSON and CSV data export
 - Coordinate information display
 
 ### 📞 Contact (contact.html)
+
 - Modern contact form with validation
 - Project information and objectives
 - FAQ section with common questions
@@ -139,17 +152,20 @@ The website uses CDN links for external libraries:
 ## 🎨 Design System
 
 ### Color Palette
+
 - **Primary**: Forest greens and earth tones
 - **Secondary**: Blues and teals for water elements
 - **Accent**: Warm oranges and yellows for highlights
 - **Glass Effects**: Semi-transparent overlays with backdrop blur
 
 ### Typography
+
 - **Primary Font**: System fonts (-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto)
 - **Headings**: Bold weights with generous spacing
 - **Body Text**: Optimized for readability across devices
 
 ### Layout Principles
+
 - **Mobile-First**: Responsive design starting from small screens
 - **Grid Systems**: CSS Grid and Flexbox for flexible layouts
 - **Glass Morphism**: Modern frosted glass effects
@@ -158,32 +174,37 @@ The website uses CDN links for external libraries:
 ## 🛠️ Customization
 
 ### Modifying Colors
+
 Edit CSS custom properties in `assets/css/styles.css`:
+
 ```css
 :root {
-    --primary-color: #4C8C4A;
-    --secondary-color: #2D5A2B;
-    /* ... other variables */
+  --primary-color: #4c8c4a;
+  --secondary-color: #2d5a2b;
+  /* ... other variables */
 }
 ```
 
 ### Adding New Pages
+
 1. Create new HTML file following existing structure
 2. Update navigation in all pages
 3. Add page-specific styles if needed
 4. Update README documentation
 
 ### Extending JavaScript
+
 Add new functionality to `assets/js/main.js` or create new modules:
+
 ```javascript
 class NewFeature {
-    constructor() {
-        this.init();
-    }
-    
-    init() {
-        // Your initialization code
-    }
+  constructor() {
+    this.init();
+  }
+
+  init() {
+    // Your initialization code
+  }
 }
 ```
 
@@ -213,12 +234,14 @@ class NewFeature {
 ## 🧪 Testing
 
 ### Validation
+
 - HTML5 validation compliant
-- CSS3 validation compliant  
+- CSS3 validation compliant
 - JavaScript ES6+ compatibility
 - Cross-browser testing completed
 
 ### Performance Testing
+
 - Google PageSpeed Insights: 90+
 - GTmetrix Grade: A
 - WebPageTest: Optimized loading
@@ -226,11 +249,13 @@ class NewFeature {
 ## 🤝 Contributing
 
 ### For Researchers
+
 1. Fork the repository
 2. Add your research data or findings
 3. Submit a pull request with documentation
 
 ### For Developers
+
 1. Follow the existing code style
 2. Test across multiple browsers
 3. Update documentation as needed
@@ -238,11 +263,12 @@ class NewFeature {
 
 ## 📄 License
 
-This project is created for educational and research purposes as part of the University of Moratuwa Town and Country Planning program. 
+This project is created for educational and research purposes as part of the University of Moratuwa Town and Country Planning program.
 
 ## 🏛️ Institution Information
 
 **University of Moratuwa**
+
 - Faculty of Architecture
 - Department of Town & Country Planning
 - Moratuwa, Sri Lanka
@@ -281,4 +307,4 @@ This project is created for educational and research purposes as part of the Uni
 
 **Created with 💚 for nature conservation and sustainable development**
 
-*University of Moratuwa - Town & Country Planning Project 2024*
+_University of Moratuwa - Town & Country Planning Project 2024_
